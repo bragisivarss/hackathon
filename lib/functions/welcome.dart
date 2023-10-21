@@ -8,6 +8,18 @@ The only rule is that it should be a function
 that has no input and simply prints a text.
 */
 
-void Welcome(){
-  print("Welcome to Blackjack");
+
+
+void Welcome() {
+
+  print('''
+  ╔════════════════════════════════════╗
+  ║                                    ║
+  ║             Welcome!               ║
+  ║       Let's play Blackjack         ║
+  ║                                    ║
+  ╚════════════════════════════════════╝
+  ''');
+
 }
+
