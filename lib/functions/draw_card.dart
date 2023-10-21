@@ -24,10 +24,5 @@ Add function
  */
 
 void DrawCard(List<int> hand, List<int> deck){
-  deck = DeckOfCards();
-  int draw1 = DealCard(deck);
-  int draw2 = DealCard(deck);
-  hand =[draw1, draw2];
-  print(hand);
-
+  return hand.add(DealCard(deck));
 }

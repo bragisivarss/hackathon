@@ -18,11 +18,7 @@ List<int> DeckOfCards() {
       Cards.add(card);
     }
   }
-<<<<<<< Updated upstream
-  print(Cards.join(', '));
   return Cards;
-=======
->>>>>>> Stashed changes
 }
 
 
