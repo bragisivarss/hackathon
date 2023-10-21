@@ -16,7 +16,10 @@ import 'package:BlackJack/functions/deal_card.dart';
 */
 
 void main() {
+<<<<<<< Updated upstream
   List<int> deck = DeckOfCards();
+=======
+>>>>>>> Stashed changes
 
 }
 
