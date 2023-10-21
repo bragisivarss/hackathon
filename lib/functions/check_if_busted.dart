@@ -24,5 +24,14 @@ if ... true eða false, return true eða false
 
 
 bool? CheckIfBusted(List<int> hand){
-
+  int? score= 0;
+  score = CalculateScore(hand);
+  bool busted = false;
+      if (score > 21){
+        busted = true;
+      }
+      else {
+        busted = false;
+      }
+      return busted;
 }
