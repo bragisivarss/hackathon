@@ -25,4 +25,8 @@ Add function
 
 void DrawCard(List<int> hand, List<int> deck){
   return hand.add(DealCard(deck));
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 }
