@@ -16,11 +16,7 @@ import 'package:BlackJack/functions/deal_card.dart';
 */
 
 void main() {
-  List<int>? deck = ShuffledDeck();
 
-  DealCard(deck!);
-  List<int> hand = [];
-  DrawCard(hand, deck);
 
 }
 
