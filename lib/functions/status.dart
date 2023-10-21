@@ -14,11 +14,13 @@ on what hand he has, his score and the hand of the house.
 hand before showdown.)
 
  */
-List? CardNameList(List playerHand){
-
+List? CardNameList(List playerHand, List houseHand){
+  print("Player 1: ${CardNamer(playerHand[0])}");
+  print("Player 1: ${CardNamer(houseHand[0])}");
 }
 
 void Status(List<int> playerHand, List<int> houseHand){
+  CardNameList(playerHand, houseHand);
 
 }
 

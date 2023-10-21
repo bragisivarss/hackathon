@@ -1,3 +1,4 @@
+
 /*
 Create a function called DealCard
 
@@ -11,10 +12,19 @@ print(deck); // Should print [2, 3, 4]
 
  */
 
+<<<<<<< HEAD
+int DealCard(List<int> deck) {
+=======
 int DealCard(List<int> deck){
 
+>>>>>>> origin/master
   List<int> myDeck = deck;
-  int myCard = deck.first;
+  int myCard = 0;
+   myCard = deck.first;
   deck.removeAt(0);
   return myCard;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 }

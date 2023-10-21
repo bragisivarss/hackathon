@@ -1,3 +1,5 @@
+import 'package:BlackJack/functions/deck_of_cards.dart';
+
 import 'deal_card.dart';
 
 /*
@@ -22,5 +24,9 @@ Add function
  */
 
 void DrawCard(List<int> hand, List<int> deck){
+  return hand.add(DealCard(deck));
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/master
 }
