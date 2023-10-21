@@ -28,4 +28,5 @@ void InitialDeal(List<int> playerHand, List<int> houseHand, List<int> deck){
   DrawCard(playerHand, deck);
   DrawCard(houseHand, deck);
 
+
 }
