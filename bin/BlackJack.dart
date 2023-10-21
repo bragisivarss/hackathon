@@ -16,7 +16,7 @@ import 'package:BlackJack/functions/deal_card.dart';
 */
 
 void main() {
-  Welcome();
+  List<int> deck = DeckOfCards();
 
 }
 
