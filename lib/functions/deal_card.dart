@@ -12,7 +12,7 @@ print(deck); // Should print [2, 3, 4]
 
  */
 
-int DealCard(List<int> deck){
+int? DealCard(List<int> deck){
 
   List<int> myDeck = deck;
   int myCard = deck.first;

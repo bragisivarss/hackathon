@@ -20,4 +20,21 @@ that the function will simply ask the user again to input an answer?
 
 int? OptionSelect(String statement, List<String> options) {
 
+  print(statement);
+  options.forEach((element) {
+    print(element);
+  });
+  int userInput = 0;
+  do {
+    String? input = stdin.readLineSync();
+    try {
+      userInput = int.parse(input!);
+      if (userInput != 1 && userInput != 2) {
+        print("Invalid input. Please enter either 1 or 2.");
+      }
+    } catch (e) {
+      print("Invalid input. Please enter either 1 or 2.");
+    }
+  } while (userInput != 1 && userInput != 2);
+
 }
