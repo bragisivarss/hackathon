@@ -12,17 +12,14 @@ print(deck); // Should print [2, 3, 4]
 
  */
 
-<<<<<<< Updated upstream
 int DealCard(List<int> deck){
 
   List<int> myDeck = deck;
-  int myCard = deck.first;
+  int myCard = 0;
+   myCard = deck.first;
   deck.removeAt(0);
   print(myCard);
   print(myDeck);
   return myCard;
-=======
-int? DealCard(List<int> deck){
-  
->>>>>>> Stashed changes
+
 }

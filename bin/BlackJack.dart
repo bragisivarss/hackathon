@@ -16,10 +16,10 @@ import 'package:BlackJack/functions/deal_card.dart';
 */
 
 void main() {
-<<<<<<< Updated upstream
-  List<int> deck = DeckOfCards();
-=======
->>>>>>> Stashed changes
-
+  List<int>? deck = DeckOfCards();
+  List<int> playerHand = [];
+  List<int> houseHand = [];
+  InitialDeal(playerHand, houseHand, deck!);
+  //Status([1,10],[3,12]);
 }
 
