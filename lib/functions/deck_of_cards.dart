@@ -12,6 +12,14 @@ List<int>? DeckOfCards() {
   List<int> Cards = [];
   List<int> Deck = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
   List<String> Suits = ["Spaði", "Tígul", "Hjarta", "Lauf"];
+
+  for(int card in Deck){
+    for(String suit in Suits){
+      Cards.add(card);
+    }
+  }
+  print(Cards.join(', '));
+  return Cards;
 }
 
 
